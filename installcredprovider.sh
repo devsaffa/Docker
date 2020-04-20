@@ -4,11 +4,11 @@
 # install it into $HOME/.nuget/plugins.
 # SEE: https://github.com/Microsoft/artifacts-credprovider/blob/master/README.md
 
-REPO="Microsoft/artifacts-credprovider"
+REPO="devsaffa/Docker/blob/master/"
 FILE="Microsoft.NuGet.CredentialProvider.tar.gz"
 VERSION="latest"
 # URL pattern documented at https://help.github.com/en/articles/linking-to-releases as of 2019-03-29
-URI="https://github.com/$REPO/releases/$VERSION/download/$FILE"
+URI="https://raw.githubusercontent.com/devsaffa/Docker/master/Microsoft.NuGet.CredentialProvider.tar.gz"
 NUGET_PLUGIN_DIR="$HOME/.nuget/plugins"
 
 # Ensure plugin directory exists
